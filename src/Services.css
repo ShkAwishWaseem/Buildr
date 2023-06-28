@@ -1,0 +1,28 @@
+.Services {
+     margin-top: 30%;
+}
+.Services > h2{
+     padding: 30px 2px;
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     text-transform: uppercase;
+     font-size: 25px;
+     font-weight: 200;
+     color: white;
+}
+.Test{
+     margin-top: 200px;
+     color: white;
+}
+
+.heading {
+     padding: 30px 2px;
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     text-transform: uppercase;
+     font-size: 25px;
+     font-weight: 200;
+     color: white;
+}

@@ -1,0 +1,8 @@
+prerequesites :
+1. Material UI for Icons
+2. Boostrap for UI
+3. react-router-dom
+4. fonts and colors 
+5. Back-end  using Node.JS Express.JS and MongoDB
+6. Framer-motion
+

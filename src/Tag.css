@@ -1,0 +1,25 @@
+.Tag{
+     width: 90%;
+     margin: auto;
+}
+
+.Tag > h1{
+     width: 50%;
+     text-align: center;
+     margin:auto;
+     margin-top: 10%;
+     margin-bottom: 40px;
+     text-transform: uppercase;
+     font-size: 45px;
+     color: white;
+     font-weight: 200;
+}
+.Tag > p{
+     color: gray;
+}
+@media only screen and (max-width:585px){
+     .Tag > h1 {
+          font-size: 20px;
+
+     }
+}

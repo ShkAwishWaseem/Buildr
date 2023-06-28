@@ -1,0 +1,42 @@
+.Vision > h2{
+     width: 50%;
+     text-align: center;
+     margin: 10% auto;
+     text-transform: uppercase;
+     font-size: 25px;
+     color: white;
+     font-weight: 200;
+}
+.Vision {
+     width: 90%;
+     margin: auto;
+}
+.vision_img{
+     width: 50%;
+}
+.vision_para{
+     margin-left: 20px;
+     color: gray;
+}
+.vision_content{
+     display: flex;
+     
+}
+@media only screen and (max-width:760px){
+          .vision_content{
+               display: flex;
+               flex-wrap: wrap;
+               
+          }
+          .vision_content{
+               margin-top: 20px;
+          }
+          .vision_para {
+               margin-left: 0px;
+               margin-top: 20px;
+          }
+          .vision_img{
+               width: 100%;
+               text-align: center;
+          }
+}

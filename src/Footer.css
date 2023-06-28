@@ -1,0 +1,67 @@
+.Footer{
+     width: 100%;
+     margin-top: 200px;
+     background-color: #000;
+     color: white;
+     display: flex;
+     padding: 18px 24px;
+}
+.col-1 {
+     width: 33.33%;
+}
+.col-1 > h1{
+     font-size: 27px;
+     
+}
+.col-1 > p {
+     font-size: 13px;
+     width: 80%;
+}
+.col-2 > h1{
+     font-size: 27px;
+     
+}
+.col-3 > h1{
+     font-size: 27px;
+     
+}
+.col-2 > p {
+     font-size: 13px;
+     width: 80%;
+}
+.col-2 {
+     width: 33.33%;
+}
+.col-3 {
+     width: 33.33%;
+}
+.col-3 > input{
+     padding: 2px 10px;
+     display: block;
+     outline: none;
+     border: 1px solid #f3b069;
+     background: transparent;
+     color: #f3b069;
+     /* width: 50%; */
+}
+.col-3 > button{
+     padding: 2px 10px;
+     /* width: 50%; */
+     background: transparent;
+     color:  black;
+     background-color: #f3b069;
+     margin-top: 5px;
+     outline: none;
+     border: none;
+     text-transform: uppercase;
+}
+
+@media only screen and (max-width:700px){
+     .Footer{
+          flex-wrap: wrap;
+     }
+     .col-1, .col-2 , .col-3 {
+          width: 100%;
+          margin: auto;
+     }
+}

@@ -1,0 +1,12 @@
+.Contact{
+     margin-top: 30%;
+}
+
+section{
+     color: white;
+}
+@media only screen and (max-width:320px){
+     .Contact{
+          margin-top: 120%;
+     }
+}

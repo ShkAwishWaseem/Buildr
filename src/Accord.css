@@ -1,0 +1,9 @@
+.Accord > h1{
+     width: 50%;
+     text-align: center;
+     margin: 10% auto;
+     text-transform: uppercase;
+     font-size: 30px;
+     color: white;
+     font-weight: 200;
+}

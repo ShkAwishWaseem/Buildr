@@ -1,0 +1,42 @@
+.Choose{
+     background-color: black;
+     color: white;
+     width: 90%;
+     margin: auto;
+     /* margin-top: 30%; */
+}
+.parent{
+     margin-top: 30%;
+}
+
+h2 {
+     padding: 30px 2px;
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-weight: 200;
+     color: white;
+}
+.one , .two , .three{
+     margin: 0px auto;
+     width: 80%;
+}
+.one > h3 , .two > h3 , .three > h3{
+     font-size: 23px;
+}
+.one > p , .two > p , .three > p{
+     border-bottom: 1px solid #f3b069;
+     padding-bottom: 50px;
+}
+.three > p {
+     border-bottom: 0px solid #000;
+}
+
+
+@media only screen and (max-width:320px){
+     .parent{
+          margin-top: 120%;
+     }
+}

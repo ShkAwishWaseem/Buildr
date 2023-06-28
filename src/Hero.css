@@ -1,0 +1,71 @@
+/* .Hero::before{
+     content: "";
+     position: absolute;
+     top: 0%;
+     left: 0%;
+     height: 100vh;
+     width: 100%;
+     z-index: -1;
+     background-repeat: no-repeat;
+} */
+.Hero{
+     height: 120vh;
+}
+.Hero_content{
+     font-size: 20px;
+     width: 30%;
+     padding: 30px 50px;
+     margin: 310px 100px;
+}
+.Hero_content > button{
+     padding: 10px 20px;
+     margin: 10px 30px;
+     font-size: 20px;
+     background-color: #f3b069;
+     outline: none;
+     border: none;
+     font-weight: 500;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+@media only screen and (max-width:720px){
+     .Hero_content {
+          width: 100%;
+          font-size: 18px;
+          padding: 30px 50px;
+          margin: 310px 100px;
+     }
+     .Hero_content > button{
+          padding: 2px 10px;
+          /* margin: 10px 30px; */
+          font-size: 20px;
+          background-color: #f3b069;
+          outline: none;
+          border: none;
+          font-weight: 500;
+          text-transform: uppercase;
+          cursor: pointer;
+     }
+}
+
+
+@media only screen and (max-width:327px){
+     .break{
+          display: block;
+     }
+     .Hero_content > button{
+          margin-left: 0px;
+     }
+}
+@media only screen and (max-width:400px){
+     .Hero_content {
+          margin-left: 0px;
+     }
+}
+@media only screen and (max-width:276px){
+     .Hero_content > button{
+          padding: 2px 10px;
+          font-size: 16px;
+     }
+}
